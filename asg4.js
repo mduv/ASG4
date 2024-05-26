@@ -379,7 +379,6 @@ function main() {
 
   canvas.onmousedown = handleOnClick;
   canvas.onmousemove = handleOnClick;
-  canvas.onmousemove = g_camera.onMove;
   document.addEventListener('keydown', handleOnKeyDown);
   document.addEventListener('keyup', handleOnKeyUp);
 
